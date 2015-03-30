@@ -13,6 +13,10 @@
 		A5F69B811AC98EE600993DA3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F69B801AC98EE600993DA3 /* Images.xcassets */; };
 		A5F69B841AC98EE600993DA3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F69B821AC98EE600993DA3 /* LaunchScreen.xib */; };
 		A5F69B901AC98EE600993DA3 /* SwiftJsonParseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F69B8F1AC98EE600993DA3 /* SwiftJsonParseTests.swift */; };
+		A5F69B9B1AC98FA000993DA3 /* cars.json in Resources */ = {isa = PBXBuildFile; fileRef = A5F69B9A1AC98FA000993DA3 /* cars.json */; };
+		A5F69B9D1AC9943C00993DA3 /* hilux.json in Resources */ = {isa = PBXBuildFile; fileRef = A5F69B9C1AC9943C00993DA3 /* hilux.json */; };
+		A5F69B9F1AC9950500993DA3 /* tires.json in Resources */ = {isa = PBXBuildFile; fileRef = A5F69B9E1AC9950500993DA3 /* tires.json */; };
+		A5F69BA11AC9969800993DA3 /* carspecs.json in Resources */ = {isa = PBXBuildFile; fileRef = A5F69BA01AC9969800993DA3 /* carspecs.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		A5F69B891AC98EE600993DA3 /* SwiftJsonParseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftJsonParseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5F69B8E1AC98EE600993DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5F69B8F1AC98EE600993DA3 /* SwiftJsonParseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftJsonParseTests.swift; sourceTree = "<group>"; };
+		A5F69B9A1AC98FA000993DA3 /* cars.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cars.json; sourceTree = "<group>"; };
+		A5F69B9C1AC9943C00993DA3 /* hilux.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hilux.json; sourceTree = "<group>"; };
+		A5F69B9E1AC9950500993DA3 /* tires.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tires.json; sourceTree = "<group>"; };
+		A5F69BA01AC9969800993DA3 /* carspecs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = carspecs.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,7 @@
 		A5F69B761AC98EE600993DA3 /* SwiftJsonParse */ = {
 			isa = PBXGroup;
 			children = (
+				A5F69B991AC98F7700993DA3 /* json */,
 				A5F69B791AC98EE600993DA3 /* AppDelegate.swift */,
 				A5F69B7B1AC98EE600993DA3 /* ViewController.swift */,
 				A5F69B7D1AC98EE600993DA3 /* Main.storyboard */,
@@ -110,6 +119,17 @@
 				A5F69B8E1AC98EE600993DA3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5F69B991AC98F7700993DA3 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				A5F69B9A1AC98FA000993DA3 /* cars.json */,
+				A5F69B9C1AC9943C00993DA3 /* hilux.json */,
+				A5F69B9E1AC9950500993DA3 /* tires.json */,
+				A5F69BA01AC9969800993DA3 /* carspecs.json */,
+			);
+			name = json;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +213,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5F69B7F1AC98EE600993DA3 /* Main.storyboard in Resources */,
+				A5F69B9D1AC9943C00993DA3 /* hilux.json in Resources */,
 				A5F69B841AC98EE600993DA3 /* LaunchScreen.xib in Resources */,
+				A5F69BA11AC9969800993DA3 /* carspecs.json in Resources */,
+				A5F69B9F1AC9950500993DA3 /* tires.json in Resources */,
+				A5F69B9B1AC98FA000993DA3 /* cars.json in Resources */,
 				A5F69B811AC98EE600993DA3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
